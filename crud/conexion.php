@@ -1,10 +1,10 @@
 <?php
 function conectar(){
-    $host="localhost";
-    $user="root";
+    $host="mysql.webcindario.com";
+    $user="sabo";
     $pass="GEO0987654321";
 
-    $bd="crud";
+    $bd="sabo";
 
     $con=mysqli_connect($host,$user,$pass,$bd);
 
